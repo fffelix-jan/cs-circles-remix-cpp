@@ -1,5 +1,5 @@
 // CharacterMap.cpp : This file contains the 'main' function. Program execution begins and ends there.
-// Copyright (c) 2019 Félix An
+// Copyright (c) 2020 FÃ©lix An
 // Licenced under the MIT Licence: https://opensource.org/licenses/MIT
 // 
 // Character Map : CS Circles Remix Problem 6 "Character Map"
