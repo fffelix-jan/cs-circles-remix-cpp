@@ -12,7 +12,7 @@ int main(void)
 {
 	// Make a string variable to store the user input, ask for it, and collect it.
 	string userInput;
-	cout << "Please type in two integers to add, separated by a plus sign (for example, 9+10).\n";
+	cout << "Please type in two integers to add, separated by a plus sign (for example, \"9+10\").\n";
 	cin >> userInput;
 	
 	// Search for the location of the plus sign.
@@ -53,6 +53,7 @@ int main(void)
 	}
 
 	// Output the sum of the two integers.
+	cout << "Sum:\n";
 	cout << addend1 + addend2;
 	cout << '\n';
 	

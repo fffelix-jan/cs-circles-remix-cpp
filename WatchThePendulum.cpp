@@ -20,8 +20,10 @@ int main(void)
 	float A;
 	cout << "Input the initial angle of the pendulum in radians:\n";
 	cin >> A;
+
+	cout << "Value of X(0), X(1), ... X(9):\n";
 	
-	// Now calculate it when 0 <= T <= 9, T e Z...
+	// Now calculate X(0), X(1), ... X(9)
 	for (int T = 0; T <= 9; T++) {
 		cout << to_string(L * cos(A * cos(T * sqrt(9.8 / L))) - L * cos(A)) + "\n";
 	}
